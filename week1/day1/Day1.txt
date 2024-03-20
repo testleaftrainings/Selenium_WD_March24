@@ -1,0 +1,143 @@
+Today Agenda:
+9.30am- 10.00am EdTeach Indroduction
+10.00am - 11.30 am create a new project in IDE, 
+         Create a class execute new program
+          How does work on java
+11.30am -11.45 am --> break with classroom Activity
+11.45 - 12.30 methods
+
+
+Why we go for Automation:
+--->
+
+
+Java:
+Java is Object oriented programming language
+java is a open source
+open source library
+
+
+Class:
+Class is a group of object which have common properties
+It blueprint or template from which object are created,
+A java class can contain field, methods, constructor and block of code
+
+syntax for class:
+public class ClassName{
+------------
+}
+e.g
+public class FirstProgram{
+------------
+}
+here
+ public --> Access modifiers
+class ---> keyword
+FirstProgram -- ClassName
+
+
+
+
+
+public class FirstProgram{
+----
+}
+
+IDE --Integrated development Environment
+
+
+
+Object:
+An instance of a class is called object
+Object real time entity or real world entity
+
+Syntax for Object Creation:
+ClassName objectName =new ClassName();
+
+How to Create a new Maven Project:
+  Open your Eclipse
+     Click on File 
+           hover new Option
+                click on Project
+                  you able to see maven just expand maven
+                inside maven you should click on Maven project
+                  click on next
+                    enable create a new project checkbox
+                     click on next
+
+
+Force Update:
+   Right click on your project title
+     hover on maven options 
+         Click on update project
+         click force updates of snapshot checkbox
+          then finally click on ok 
+
+
+
+src/main/java   --dev team
+
+
+src/test/java    --tester
+
+Other than .jave files , .properties, config.properties,xlx,xlsx
+
+src/main/resource
+src/test/resource
+
+
+How to create a new package:
+right click on src/main/java
+    just hover on new options 
+      click package 
+              here enter your package name, but all the character should be lower case 
+             click on Finish
+
+How to create a new Class:
+   Right click on your package name
+           hove on new options
+               Click on class
+                      enter your class name, but you should follow the naming conmvention 
+               click on finish 
+
+
+What are the naming convention while to followed creating a new classes:
+ClassName: --> Pascal Notaions
+Start with capital, When we have multiple words the second word onwards init should be capital
+  e.g
+  Palindrome,FirstProgram,Browser,ChromeBrowser
+
+
+methodName,objectName,variableName---> camelcase
+Start with lowercase, When we have multiple words the second word onwards init should be capital
+  e.g
+ addTwoNumbers,makeCall,text,
+
+
+
+
+Create a new class names as browser
+ inside a class create a main method 
+  the syso --> My program execute successfully
+
+
+Explain main:
+public static void main(String[] args){
+----
+}
+
+public---> It a access modifiers we able to access any where from this project
+static  --> static is a keyword, it is also non-access modifiers , we can excute with out instance of a class
+void ---> void is a return type, here we can not return anything
+main  --> name of the method name, jvm will look into main method and execute this program
+String[] args --> comman line aruguments
+
+
+
+
+
+
+
+
+
+
