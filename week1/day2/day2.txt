@@ -1,0 +1,178 @@
+Today's Agenda:
+9.30am to 10.00Am -Method
+10.00am to 10.15am -Classroom 
+10.15 to 10.45 Datatypes and Variable
+10.45 to 11.10 Classroom with break
+11.10 to 11.30 Difference between local and global variables
+11.30 to 12.00 Access Modifiers
+12.00 to 12.15 Classroom
+12.15 to 12.45 Return type
+
+method:
+1.It is a function or method inside a class
+2.It is a smaller line code does specific action or verification
+
+Syntax:
+public void methodName(aruguments if needed){
+-------------------
+}
+
+here
+public is an Access modifiers
+void - is a retun type
+methodName() -->Name of the method
+                start with lowercase, when we have multiple words the second word onwards init should be capital.
+
+Car: -->Class
+
+driveCar()
+applyBreak()
+applyGear()
+switchOnAc()
+isPuncture()
+isDamaged()
+putPetrol()
+
+
+
+Laptop
+laptopOn()
+switchOff()
+sendDocuments()
+makeVideoCall()
+watchVideo()
+playingGames()
+deleteDocuments()
+openBrowser()
+
+
+
+Object:
+An instance of a class is called object
+An Object is real time entity or real world entity
+
+syntax :
+ClassName objectName=new ClassName();
+
+
+
+DataTypes:
+Primitive DataTypes
+Non-Primitive Data types
+
+Primitive DataTypes:
+int   -number
+float
+long
+double
+short
+byte
+boolean
+char
+
+
+number --int , long, short, byte
+decimal values --> float and double
+boolean -- yes or no  --> true or false
+char -- to store single character
+
+Non-primitive Datatypes:
+String &Arrays
+
+String name="Aravind";
+
+Variable is a container to store the values, variable along with datatype
+
+Student Details:
+  studentName ="Mani";
+ char  studentInitial ='M';
+  byte rollNumber =001;
+  short  class =10;
+long   mobileNumber =9976749433l;
+ String  mailId ="mani@gmail.com";
+ long  accountNumber=9872636998216396216L;
+   boolean isPresent=true;
+   
+
+
+
+Mostly we are using 
+int 
+String 
+boolean
+
+
+
+default value:
+int , long shor, byte --0
+float , double =0.0
+boolean -- false
+char ---/u0000 -- empty space
+
+
+
+
+
+Local Variable                                        Global variable
+If you declare the variable                      If you are declaring the variable
+inside a method that is called as                outside of a method but inside a 
+local variable                                   class that is called as global variable
+
+Local Varible  must be initialized                May or may not be Initialized
+
+                                                 If you are declaring the global variable,
+                                                 it will be accessing any where of this class
+
+if you declaring the local variable
+we can access only with in a method 
+we can not access from outside of the method
+because this variable has detroyed
+
+
+for local variable we can't use                   we can able to use all acess modifiers
+any access modifiers
+
+
+
+Access Modifiers:
+public   -- we can use any where of this  project
+private   -- we can use only whith in a class, we can not access from outside of the class
+protected  --we can use  with in package, If you want to access outside of the package but the class should be inherited
+default  -- we can use only with in package, we can't use outside of the package
+
+In class level we can use public and default access modifiers
+
+In variable and method level we can able to use all access modifiers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
