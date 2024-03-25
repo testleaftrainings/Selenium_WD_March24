@@ -1,0 +1,187 @@
+Today' Agenda
+---------------
+Controll Statement  9.30Am to 10am
+Arrays   10.30 to 11.30am
+ClassRoom with break 11.30am to 11.50am
+
+Operators:
+1.Arithmatic Operator
+   +,-,*,/,%
+  int a=5;
+  int b=10;
+int c=a+b;
+   System.out.println(c);
+   4/2 =quatient --2
+   4%2 = remainder --0
+2.Relational Operator --Comparision Operator
+   <,>,<=,>=,==,!=
+   int a=10;
+   int b=20;
+   
+  a<b
+
+  x=10
+  z=10
+  x==z
+  c=4;
+  d=5
+   c!=5
+
+Logical Operator:
+   && , || , !
+ a=10
+ b=20
+ c=30
+  c>a &&c>b
+
+Controll Statement:
+  Conditional Statement:
+   1.if
+  int a=10;
+  int b=20;
+  syntax:
+//When my condition has true the if will be executed here
+   if(condition){
+        ------
+        }
+
+    if(a<b){
+   System.out.println(b);
+
+
+
+   2. else ..if
+
+//When my condition has true the if will be executed here
+   if(condition){
+        ------
+        }else{//When my condition has fail the else block will                  executed 
+  --------}
+
+   3.Nested if 
+   4.switch case
+
+
+Looping Statement:
+1.for
+syntax:
+for(Initialization;Condition;Increment/Decrement){
+    Execution;
+}
+
+1.Initialization
+2.Condition
+3.Execution
+4.Increment or Decrement
+When i know the starting point and ending point then in should use 
+for loop
+
+for(int i=0; i<10;i++){
+   System.out.println(i);
+}
+
+ 1 10  1,3,5,7,9
+public class PrintOddNumbers{
+public static void main(String[] args){
+
+//pseudocode
+//Itearte the values from 1 to 10
+//we have check, the Itearte values id Oddnumber
+//If it is equal will print the numbers
+
+for(int i=0;i<10;i++){
+   if(i%2!=0){
+   System.out.println(i);
+}
+}
+
+
+
+}
+}
+
+
+
+
+
+2.while
+while(condition){
+      execution;
+      }
+3.do while
+      do{
+      execution;
+      } while(condition);
+
+
+JumpStatement:
+ 1.continue
+ 2.break
+
+
+1
+2
+3
+4
+Five
+6
+7
+
+JDK --Java Development Kit
+JRE --Java Runtime Environment
+JVM -- Java Virtual Machine
+
+
+Compiler:
+   It convert the programmimg language into machine level language and Machine level language convert into programming level language
+
+
+Arrays:
+
+   Arrays is a collection of similar data types or same types
+    Array is a Class, non-premitive data types
+
+ int a=10;
+ int b=20;
+int c=30;
+ int d=40;
+
+int[] num={10,20,30,40};
+
+
+Types of an Array:
+Single Dimensional Array
+MultiDimensional Array
+
+How will you Initiaze an Array:
+1.Array using literal
+int[] num={10,20,30,40};
+
+2.Using new keyword
+int[] number=new int[5];
+
+
+DisAdvantages:
+  Fixed Array size
+  we can not increse and decrese in runtime
+  Starting index always 0
+
+
+1==2
+1==3
+1==4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.Logical Operator
