@@ -1,0 +1,280 @@
+public class FindMissingNumber {
+public static void main(String[] args) {
+	
+	//Initialize an Array
+	int[] num= {1,8,5,2,7,3,4};
+	//Missing Number -->6
+	
+	Arrays.sort(num);
+	//1,2,3,4,5,7,8
+	
+	//Iterate the values from num
+	for (int i = 0; i < num.length; i++) {
+		int j=i+1;
+		if(num[i]!=j) {
+
+
+			System.out.println(j);
+			break;
+		}
+	}
+index values
+num[0]=1
+num[1]=2
+num[2]=3
+num[3]=4
+num[4]=5
+num[5]=7
+num[6]=8
+
+
+When i=0;        int j=i+1;
+if(num[i]!=j) {   
+    1!=0+1
+    1!=1
+
+When i=1;        int j=i+1;
+if(num[i]!=j) {   
+    2!=1+1
+    2!=2
+
+When i=2;        int j=i+1;
+if(num[i]!=j) {   
+    3!=2+1
+    3!=3
+
+When i=3;        int j=i+1;
+if(num[i]!=j) {   
+    4!=3+1
+    4!=4
+
+    When i=4;        int j=i+1;
+if(num[i]!=j) {   
+    5!=4+1
+    5!=5
+
+When i=5;        int j=i+1;
+if(num[i]!=j) {   
+    7!=5+1
+    7!=6
+
+
+	
+
+public class FibbonacciSeries{
+public static void main(String[] args){
+
+series number 0,1,1,2,3,5,8,13,21..
+int firstNumber =0;
+int secondNumber=1;
+//Initialize the variable as sum=0
+int sum=0;
+//if you are perform addition and subraction you should initialize the temp variabe as 0
+//if you are perform multiplication and division you should initialize the temp variabe as 1
+for(int i=0; i<=8;i++){
+
+sum=firstNumber+secondNumber;
+firstNumber=secondNumber;
+secondNumber=sum;
+}
+}
+
+0,1
+sum=firstNumber+secondNumber;
+1  =0+1
+firstNumber=secondNumber;
+1
+secondNumber=sum;
+1
+     sum=firstNumber+secondNumber;
+       2    1          1
+
+        sum=firstNumber+secondNumber;
+          3    1             2
+a=5               sum=firstNumber+secondNumber;
+                    5    2          3
+                       sum=firstNumber+secondNumber;
+                         8     3          5
+
+                         sum=firstNumber+secondNumber;
+                           13    5             8
+
+
+
+Prime Number
+int number=13;
+for (int i = 1; i <=13; i++) {
+		if(number%i==0) {
+			count=count+1;
+		}
+	}
+when i =1;
+13%1 ==0
+     count =count+1;
+      count=0+1
+      count =1
+
+i =2;
+13%2==0
+
+i=3
+13%3==0
+
+i=4
+13%4==0
+
+i=5
+13%5==0
+
+i=13
+13%13==0
+ count =count+1;
+      count=1+1
+      count =2
+
+String:
+ 1.The squence character is called string
+ 2.String is a class and non- primitive data type
+ 3.String is immutable object we can not change at runtime once it has been created
+
+How will you initialize a String 
+1.String literal
+String text="testleaf";
+2.String using new keyword
+String objetName=new String("Testleaf");
+
+String Method:
+.length() --> to get the count of given String
+toUpperCase() --> It will change all the character in capital letter
+toLowerCase() --> It will change all the character in lowercase
+toCharArray() --> Convert string into characcter
+split()  --> to segrarate the sentences
+replcaeAll() --> To replace the entire words
+charAt()   --> To get the particular character
+trim() ---> to 
+
+
+
+
+
+
+public class ReverseString{
+public  static void main(String[] args){
+//INitialize a String
+String name ="Ravi";
+/// output ivaR
+//Converted String into characterArray
+char[] eachCharacter=name.toCharArray();
+
+Ravi--> R,a,v,i   --> Here 4 character and length also 4
+[0] -->R
+[1] -->a
+[2] -->v
+[3] -->i
+
+//for(int i=0; i<eachCharacter.length;i++)
+for(int i=eachCharacter.length-1;i>=0;i--){
+System.out.println(eachCharacter[i]);
+}
+}
+}
+
+
+
+Palindrome:
+
+Initialize a String 
+String text="malayalam";
+
+public class Palindrome{
+public static void main(String[] args){
+
+//Initialize a String
+String text="malayalam";
+//Initialize an empty String
+String reverse="";
+
+//Convert the string into charArry
+ char[] eachCharacter= text.toCharArray();
+//Here the length is 9 but it will store the index values 0 to 8
+eachCharacter[0]=m
+eachCharacter[1]=a
+eachCharacter[2]=l
+eachCharacter[3]=a
+eachCharacter[4]=y
+eachCharacter[5]=a
+eachCharacter[6]=l
+eachCharacter[7]=a
+eachCharacter[8]=m
+
+//Iterate the character from eachCharacter
+for(int i =eachCharacter.length-1;i>=0;i--){
+     reverse=reverse+eachCharacter[i];
+  }
+System.out.println(reverse);//malayalam
+
+if(reverse.equals(text)){
+System.out.println("The given String is palindrome");
+}else{
+Systemout.println("not a palindrome"):
+
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
