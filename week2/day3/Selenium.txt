@@ -1,0 +1,95 @@
+Agenda:
+10.00 -11.00 selenium Introduction
+11.00-12.00 Basic Locators
+12.00 12.15 classroom & Break
+
+Selenium:
+Selenium can Automate only web based application
+Selenium is a tool or jar files
+Selenium is a open source
+Selenium can  support multiple browser like chrome, edge, firefox, safari, and opera
+
+
+
+Browser:
+   Chrome, safari, edge, firefox, opera
+
+Selenium can not automate desktop application
+Selenium can not automate mobile application --Appium
+Selenium can not automate database connection JDBC library
+
+Seleniu Suite Component
+Seleniu IDE
+Selenium RemoteControl -- deprecated
+Selenium Grid
+Selenium WedDriver
+
+Seleniu IDE 
+Selenium Grid
+Selenium WedDriver
+              API -Application programming interface
+                             
+  Selenium   -W3c Protcol--> ChromeDriver --->ChromeBrowser
+  Script  
+                            EdgeDriver --->EdgeBrowser 
+         
+                             FirefoxDriver --->FirefoxBrowser
+
+Java
+javaScript
+C#           Language Binding
+ruby
+pearl
+phython
+
+
+4.6.0 --version
+ChromeDriver driver=new chromeDriver();
+Latest stable version 4.18.1
+driver.get("https://www.facebook.com/");
+https://www.instagram.com/?hl=en
+
+
+Dom --Document Object Model
+HTML  --> HyperText markup language
+<html>
+<head>  </head>
+<body> </body>
+
+</html>
+
+ping clr --TagName
+purple  -- attribute
+
+
+DOM Open :
+  1.Right click ---> Inspect
+  2.ctrl+shift+i 
+  3.Hover on More tools ---> click developer tools
+  4.Press f12
+
+Locators:    When to use                     Can't use
+1.id        unique                  If id having number dont 
+                                    use id because it will                                     change randomly
+2.name       unique                 multiple 
+3.className  unique                 if it white spece inbetween
+4.linkText    <a>
+5.patialLinkText
+6.tagName      unique
+7.cssSelector
+8.Xpath
+
+                CRM/SFA
+              
+
+id=ext-gen872   --->10020
+ext-gen862
+
+findElement() --> is a method to find the element in dom
+
+
+
+
+Url:http://leaftaps.com/opentaps/control/main
+UserName:Demomsalesmanager
+password:crmsfa
