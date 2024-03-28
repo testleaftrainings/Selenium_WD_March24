@@ -1,0 +1,129 @@
+
+selectByValue()
+Best Practice : Multilingual project
+
+selectByVisibleText()
+Best Practice: English project
+
+selectByIndex()
+bestPractice: To select random values
+
+
+Xpath
+--XML path --Extensible markup language
+ two types 
+  1.Absolute Xpath
+  2.Relative Xpath
+
+
+Absolute Xpath:
+Starting from root node
+Start with single (/)
+
+/html/body/div[2]/div[2]/div/form/p/input[1]
+ if i want 2 match
+(/html/body/div[2]/div[2]/div/form/p/input[1])[2]
+
+
+Relative xpath:
+1.Starting from current node
+2.Start with double(//)slash
+
+1.Basic XPath
+2.Advanced Xpath /Axis xpath
+
+1.Attribute based xpath
+2.Text based xpath
+3.Contains based xpath
+4.Index based xpath
+
+1.Attribute based xpath
+syntax:
+//tagName[ @attribute='attributeValue']
+e.x
+//input[@value='Login']
+
+2.Text bassed xpath
+//tagName [text()='textValue']
+
+
+findElement():
+It is used to find the element in dom
+return type WebElement
+NoSuchElementException 
+to get 1 of 1 match from dom
+
+3.Contains based xpath
+
+Attribute:
+//tagName[contains(@attribute,'attributeValue')]
+
+//ul[@class='ui-autocomplete-multiple-container ui-autocomplete-dd-multiple-container ui-widget ui-inputfield ui-state-default ui-corner-left ui-state-hover']
+e.g
+//ul[contains(@class,'ui-state-default ui-corner-left ui-state-hover')]
+
+
+Text:
+//tagName[contains(text(),'textValue')]
+e.g
+//a[contains(text(),'CRM/SFA')]
+
+
+Index Based Xpath:
+(//div[@class='ui-radiobutton ui-widget'])[3]
+
+
+Advanced Xpath:
+Parent to child:
+parent xpath / child xpath or tagName
+//tagName[@attribute='attributevalue']/tagName[@attribute='attributevalue']
+
+(//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)
+
+Child to Parent:
+child Xpath/parent:: parent tagName or xpath
+//input[@id='username']/parent::p
+    or
+//input[@id='username']/..
+
+
+
+GrandParent to Grand Child:
+Grandparent xpath // grandChild tagName or xpath
+//form[@id='login']//input
+
+GrandChild to Grandparent xpath:
+GrandChild xpath/ancestor:: grandparent tagName or xpath
+//input[@id='username']/ancestor::form
+   or
+//input[@id='username']/../..
+
+
+
+
+NOSuchElementException:
+If you are tring to find element in dom but unfortunately that element not present in you dom, That's why we are getting NoSuchElementException
+
+InvalidSelectorException:
+If you missed syntax in xpath a that time we are getting InvalidSelectorException
+
+like./ ,[ ,@
+
+
+SessionNotCreatedException -->Ensure  your network connection is Stable?
+
+WebDriverException --> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
