@@ -1,0 +1,252 @@
+What is Selenium?
+1.Selenium can automate only web based application
+2.Selenium is open source
+3. Selenium can support multiple os like windows, mac,linux
+4.Selenium support multiple language java, javascript, pearl, ruby
+phyton,c#
+
+
+what are the selenium suite components?
+1.Selenium IDE
+2.Selenium Grid
+3.Selenium WebDriver
+
+Locators
+id
+name
+className
+linkText
+partialLinkText
+tagName
+cssSelector
+xPath
+
+with select tag:
+selectByValue()
+Best Practice : Multilingual project
+
+selectByVisibleText()
+Best Practice: English project
+
+selectByIndex()
+bestPractice: To select random values
+
+without select tag:
+driver.findElement(By.xpath("//tagName[@attribute='attributeValue'])).click();
+
+driver.findElement(By.xpath("//tagName[text()='textValue'])).click();
+
+
+
+Xpath
+--XML path --Extensible markup language
+ two types 
+  1.Absolute Xpath
+  2.Relative Xpath
+
+
+Absolute Xpath:
+Starting from root node
+Start with single (/)
+
+/html/body/div[2]/div[2]/div/form/p/input[1]
+ if i want 2 match
+(/html/body/div[2]/div[2]/div/form/p/input[1])[2]
+
+
+Relative xpath:
+1.Starting from current node
+2.Start with double(//)slash
+
+1.Basic XPath
+2.Advanced Xpath /Axis xpath
+
+1.Attribute based xpath
+2.Text based xpath
+3.Contains based xpath
+4.Index based xpath
+
+1.Attribute based xpath
+syntax:
+//tagName[ @attribute='attributeValue']
+e.x
+//input[@value='Login']
+
+2.Text bassed xpath
+//tagName [text()='textValue']
+
+
+findElement(): findElements() -- later
+It is used to find the element in dom
+return type WebElement
+NoSuchElementException 
+to get 1 of 1 match from dom
+
+3.Contains based xpath
+
+Attribute:
+//tagName[contains(@attribute,'attributeValue')]
+
+//ul[@class='ui-autocomplete-multiple-container ui-autocomplete-dd-multiple-container ui-widget ui-inputfield ui-state-default ui-corner-left ui-state-hover']
+e.g
+//ul[contains(@class,'ui-state-default ui-corner-left ui-state-hover')]
+
+
+Text:
+//tagName[contains(text(),'textValue')]
+e.g
+//a[contains(text(),'CRM/SFA')]
+
+
+Index Based Xpath:
+(//div[@class='ui-radiobutton ui-widget'])[3]
+
+
+Advanced Xpath:
+Parent to child:
+parent xpath / child xpath or tagName
+//tagName[@attribute='attributevalue']/tagName[@attribute='attributevalue']
+
+(//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)
+
+Child to Parent:
+child Xpath/parent:: parent tagName or xpath
+//input[@id='username']/parent::p
+    or
+//input[@id='username']/..
+
+
+
+GrandParent to Grand Child:
+Grandparent xpath // grandChild tagName or xpath
+//form[@id='login']//input
+
+GrandChild to Grandparent xpath: 
+When will you write ancesstor xpath?
+GrandChild xpath/ancestor:: grandparent tagName or xpath
+//input[@id='username']/ancestor::form
+   or
+//input[@id='username']/../..
+
+
+
+
+NOSuchElementException:
+If you are tring to find element in dom but unfortunately that element not present in you dom, That's why we are getting NoSuchElementException
+
+InvalidSelectorException:
+If you missed syntax in xpath a that time we are getting InvalidSelectorException
+
+like./ ,[ ,@
+
+
+SessionNotCreatedException -->Ensure  your network connection is Stable?
+
+WebDriverException --> 
+
+
+ 
+Elder Sibling to younger sibling:
+Elder xpath /following-sibling::tagName of younger sibling
+//label[text()='Username']/following-sibling::input
+
+Younger sibling to Elder sibling
+//input[@id='username']/preceding-sibling::label
+//input[@id='password']/preceding-sibling::label
+
+
+Elder cousin to younger cousin:
+//label[text()='Username']/following::input
+
+younger cousing to elder cousin
+
+//input[@id='password']/preceding::label
+
+
+
+Navigation Comments:
+driver.navigate().to()
+driver.forward()
+driver.backward()
+driver.navigate.referesh();
+
+Element interactions:
+sendKeys()
+clear()
+click()
+getText()
+getAttribute()
+getCurrentUrl()
+
+
+element verification method
+isEnabled()
+isSelected()
+isdisplayed()
+
+
+browser Interaction
+
+get()
+navigationCommemnts
+close()
+getTitle()
+getcurrentUrl()
+
+
+
+
+
+
+
+Oops --> Object Oriented Programming language
+1.Abstraction
+2.Inheritance
+3.Encapsulation
+4.Polymorphism
+
+
+Inheritance:
+Inheriting the vaiables and methods from super class to sub class
+with the help of extends keyword
+
+purpose:
+code reusability
+
+parent class (grandparent) superclass  ,Baseclass
+
+child class(parent)  subclass, Derived class
+
+Class to class -->extends
+Interface to Interface -->extends 
+
+Single Inheritance:
+java 
+NoSuchElementException extends RuntimeException
+ArrayList extends AbstractList
+Selenium:
+ChromeDriver extends ChromiumDriver
+
+
+MultiLevel Inheritance
+java 
+NoSuchElementException extends RuntimeException
+RuntimeException extends Exception
+     or
+ArrayList extends AbstractList
+AbstractList extends AbstractCollection
+
+Selenium:
+ChromeDriver extends ChromiumDriver
+ChromiumDriver extends RemoteWebDriver
+
+
+Multiple inheritance:
+
+
+
+
+
+
+
+
