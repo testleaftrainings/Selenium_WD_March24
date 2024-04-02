@@ -1,0 +1,134 @@
+Polymorphism:
+poly -->Many
+morphism --> multiple form of implemenetation
+1.Method Overloading/Compile time polymorphism/
+static binding
+
+Same class and same mehod with different Aruguments
+
+Advantages:
+ simply  the verbose
+
+Selenium:
+driver.switchTo().frame(int index)
+driver.switchTo().frame(String nameOrId)
+driver.switchTo().frame(WebElement element)
+
+java :
+prinln()
+
+add()
+
+2.Method Overriding/Runtime polymorphism/Dynamic Binding
+
+
+Different class with same method but should be inherited
+
+Java :
+.equals()
+
+Selenium:
+ quit()
+
+
+
+
+
+This ---This is a keyword, Instance of current class
+     variable,methods,constructor with the help of this keyword.
+
+Super ---super is a keyword, Instance of Parent  class
+     variable,methods,constructor with the help of super keyword.
+
+
+
+Abstraction:
+ Design ---> first
+  development --> second
+
+Hidding the internal details and showing functionality
+to the user
+
+Interface  --100%
+Abstract class --0-100%
+
+Interface:
+1.Interface is a Design
+2.Statement,Unimplement method
+3.We can not create object for an Interce
+4.It can access public and default access modifiers
+
+Selenium:
+ WebDriver, SearchContext
+
+class =extends= class
+interface =extends=  interface
+class =Implements= interface
+
+
+Java:
+List, Set
+
+
+Create  a new interface as SmartTV
+ methods 
+ public void increseVolume();
+ public void changeChannel();
+public void switchOff();
+public void playMusic();
+
+Create a new class as SonyTv
+here implement all the methods
+
+
+Abstract class:
+1.We can use implemented and unimplement methods
+which means abstract method and non-abstract method
+2.We can not create object for abstract class
+3. A clas which is declared the abstract keyword then we called as abstract class
+4.It is a Non-access modifiers we can able to use class as well as method level
+
+Selenium:
+By
+Java:
+Abstract Collection,AbstractList
+
+Concreate class:
+A class which all implement method that is callled as concreate class
+
+
+
+Class  
+class is a group of object which have common properties . it is a blueprint or template which object are create
+
+2.100% Implement methods , we can not use UniMplement methods
+
+3.We can able to create n number of object
+
+Abstractclass
+1.A clas which is declared the abstract keyword then we called as abstract class
+.It is a Non-access modifiers we can able to use class as well as method level
+
+2.We can use implemented and unimplement methods
+which means abstract method and non-abstract method
+
+3.We can not create object for an abstract class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
