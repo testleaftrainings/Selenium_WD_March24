@@ -1,0 +1,93 @@
+Collection
+
+Collection -->Interface
+List
+Set
+map
+Collections -->Class
+
+Collections is a group of individual object
+All interface comes from java.utils -->packages
+
+              Collection
+   List                        Set
+1.ArrayList              1.HashSet
+2.LinkedList             2.TreeSet
+                         3.LinkedHashSet
+
+
+List and Set are --> single Dimensional Array
+Map -->Two Dimensional Array
+
+Properties:
+ 1.List allow duplicate 
+ 2.Maintain the Insertion order
+
+Array:
+  Array is a collection of similar Data types or Same data types
+int a=10;
+int b =20;
+int c=30;
+int[] var={10,20,30};
+
+DisAdvantages:
+Fixed in Array size
+we can not change at run time
+
+Interface:
+Interface is a design,
+Interface have unimplemented method
+We can't create object for an interface
+
+selenium:WebDriver,SearchContext
+Java:List,Set
+
+
+Data type:
+Primitive Data types:
+int    -->Integer
+float  -->Float
+long   -->Long
+double -->Double
+char   -->Character
+boolean ->Boolean
+short   -->Short
+byte    -->Byte
+
+Non-Primitive Data types:
+String , Arrays
+
+How to Initialize a List:
+List<> obj=new ArrayList<>();
+<>---Generic
+
+List<String> obj=new ArrayList<String>();
+
+List methods:
+1.add() --> To add the item in list
+2.size() --> To get how many elements present in this list
+3.get() --> To get particular element from this list
+4.clear() --> To remove all the element from this list
+5.isEmpty() --> Confirm if the list is empty or not
+6.remove()-->To remove particular element
+7.contains()-->confirm if the element exist in the list
+
+8.Collections.sort() --> to print ascending order
+9.Collections.reverse()-->To print reverse order
+
+
+properties :
+1.Does not allow duplicate
+2.May or may not be  maintain the insertion order
+
+1.HashSet  --Hashing Algorithm --Random Order
+2.TreeSet  -- Ascii order --ascending order
+3.LinkedHashSet  --Maintain the insertion order
+
+
+
+
+
+
+
+
