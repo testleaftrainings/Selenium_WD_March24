@@ -1,0 +1,82 @@
+parent to child
+parent xpath / child xpath or tagName
+(//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)[1]
+
+child to parent
+
+
+
+
+
+
+
+
+Target Locator:
+TargetLocator --Interface
+Implementation class -->RemoteTargetLocator
+
+SwitchTo() --Return types is -->TargetLocator
+1.Alert
+2.Frame
+3.WindowHandling
+
+Alert:
+Alert---> is a Interface
+implamentation class is -->RemoteAlert
+Alert buid by Javascript
+Alert is small message box which display on notification else it will give some kind of information to the user
+
+Types of an Alert:
+1.Model Dialogue
+2.Non-Model Dialogue
+
+1.Model Dialogue:
+1.we can not inspect in our Dom
+2.Until handle the Alert we can not access any element in UI
+
+  We have 3 types:
+  1.Simple Alert
+  2.Confirmation Alert
+  3.Prompt Alert
+Non- Model Dialogue:
+It sweet alert
+
+
+Alert Methods:
+accept() --To accept the alert
+dismiss() --To cancel the alert
+getText() --To retrieve the text from alert
+sendKeys() --To pass values
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
