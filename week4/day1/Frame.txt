@@ -1,0 +1,57 @@
+Frame:
+A dom Inside a another Dom
+<html>
+  <head>    </head>
+  <body>    </body>
+      <html>
+      <head>    </head>
+      <body>    </body>
+      </html>
+</html>
+
+
+
+How to handle a Frame?
+ driver.switchTo().frame(int Index);
+ driver.switchTo().frame(String nameOrId);
+ driver.switchTo().frame(WebElement element);
+
+What is the Difference Between ParentFrame() and DefaultContent()?
+
+driver.switchTo().defaultContent()-->control move to main webpage
+driver.switchTo().parentFrame()-- the control will move to immediate parent
+
+getWindowHandle() -->Current Active Window
+                  return type String
+getWindowHandles() -->ChildWindow
+                   return type Set<String>
+
+Set Properties:
+1.Does not allows duplicate
+2.May or may not be maintain the insertion ordder
+
+Implementation class
+1.HashSet  --Random order
+2.TreeSet   --Ascii order
+3.LinkedHashSet --maintain the insertion order
+
+close() -- to close current Active window
+quit() -- to close the entire browser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
