@@ -1,0 +1,62 @@
+Web Table:
+<table>
+   <th> </th>
+   <tr>
+     <td> </td>
+     <td> </td>
+  </tr>
+   <tr>
+     <td> </td>
+     <td> </td>
+  </tr>
+  </table>
+ 
+
+//table[@class='DataTable TrainList TrainListHeader stickyTrainListHeader']//tr[2]/td[2]
+//table[@class='DataTable TrainList TrainListHeader stickyTrainListHeader']//tr[3]/td[2]
+//table[@class='DataTable TrainList TrainListHeader stickyTrainListHeader']//tr[4]/td[2]
+//table[@class='DataTable TrainList TrainListHeader stickyTrainListHeader']//tr[5]/td[2]
+//table[@class='DataTable TrainList TrainListHeader stickyTrainListHeader']//tr[6]/td[2]
+//table[@class='DataTable TrainList TrainListHeader stickyTrainListHeader']//tr[7]/td[2]
+//table[@class='DataTable TrainList TrainListHeader stickyTrainListHeader']//tr[8]/td[2]
+
+
+for(int i=2;i<=trainNames.size();i++){
+"//table[@class='DataTable TrainList TrainListHeader stickyTrainListHeader']//tr["+i+"]/td[2]"
+
+}
+
+
+
+
+
+//tagname[text()='textvalues']
+
+
+
+
+
+
+
+
+Actions --->Class
+Action -->Interface
+
+Actions class Does not through any exception
+
+Actions builder =new Actions(driver);
+
+
+
+To Freeze Dom: setTimeout(function(){debugger;}, 5000)
+
+
+
+
+
+
+
+
+
+
+
