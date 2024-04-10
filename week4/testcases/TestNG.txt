@@ -1,0 +1,75 @@
+TestNG --Is a Runner Framework
+ NG --Next generation
+in 2004 ceduric beust was develop the testng framework
+JUnit  --->Java Unit Testing
+NUnit --> .Net unit testing
+
+
+Differnce Dependencies and Plugin 
+
+dependencies: to write the code in eclipse
+plugin :To run the code in eclipse
+
+prerequisite for TestNg
+1.We should add the dependencies in pom.xml file
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.4.0</version>
+</dependency>
+2.We should install the testNG plugin
+
+
+1,2,3,,,,10
+ sequence       parallel
+1                1,2,3 4,5
+2                6,7,8,9,10
+3
+4
+5
+6
+10
+
+
+
+if i want execute 10 testcase
+it will display the test status 
+10    pass --5  fail 4 skip -1
+
+How to convert the TestNg TestCase:
+1.Convert the main method into normal method
+     remove static keyword and String[] args from the main method
+2.On top of the method put @Test annotation
+  @Test --Import from--> org.testng.annotations.Test;
+  @Test is a Mandatory annotation in testng 
+  remaining are optional
+
+Default value for  thread-count-->5
+Threadcount =2
+                        CreateLead  --still running--com
+        EditLead  --completed
+                        DeleteLead  --run
+                        DuplicateLead
+
+
+Verbose is attribute to get the log in console
+default value for verbose-->2
+range 1-10 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
