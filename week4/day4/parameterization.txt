@@ -1,0 +1,87 @@
+@BeforeSuite
+    start the report
+   @BeforeTest 
+       set the testcase details
+      @BeforeClass
+         set db connection
+                 @DataProvider --red the data from excel
+          @BeforeMethod
+                preCondition
+                 @Test  --TestCase
+          @AfterMethod  --postCondition
+      @AfterClass
+            not available in our framwork
+    @AfterTest
+@AfterSuite
+     -generate the report
+
+@Test is a Mandatory annotations remaining are optional
+
+
+
+Before suite
+   Before Test
+       Before Class
+             Before Method
+             Test A
+             After Method
+                 Before Method
+                 Test F
+                 After Method
+                      Before Method
+                      Test Z
+                      After Method
+        After class
+    After Test
+
+
+Steps to Integrate Precondition() and PostCondition();
+1.Create a new class as Project Specific Method
+2.we have to create two methods here, The methodsa are preCondition() and postCondition()
+3.declare the driver instance as global variable,make sure remove the local declaration 
+   i.e
+       ChromeDriver driver;
+	
+	@BeforeMethod
+	public void preCondition() {
+	    driver = new ChromeDriver();
+        -------------------------------
+        }
+
+4.All the class should be extends with project specific method
+
+
+
+priority is a attribute to controll the order of execution with in class
+Priority default value is 0
+we can able to either positive nor negative
+
+
+Subraction
+Multiplication
+Division
+Addition
+
+invocationCount is attribute
+to execute single testcase in multiple times
+we can able to either positive nor negative
+if you are give negative value it will not allow to execute.
+            or 0  -it will not allow to execute
+
+
+If i don't execute particular testcase at that we should use enabled attribute
+default value is true
+
+@Test(enabled=false)  --not consider in execution
+
+
+
+Parameterization:
+  To pass external data to testcase
+1.static  
+url username password
+2.Dynamic
+
+
+
+
