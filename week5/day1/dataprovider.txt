@@ -1,0 +1,63 @@
+@dataProvider --> One of the annotaions is testng we can able to pass mutiple set of data
+
+Selenium:
+Selnium can automate only webbased application
+Selenium is a open source
+selenium can support multiple language
+selenium can support multiple browser
+      ""      ""                  Os -->Windows, mac linux
+
+Apache POi: xls, .xlsx
+     
+HSSF
+
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.3</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.3</version>
+</dependency>
+
+Create a New Folder:
+Right click on project title --> hover on new options
+                                --> click on folder
+                                  ---> enter your folder name
+                                   ---> click on finish
+
+
+
+
+
+Steps to Integrate ReadExcel to TestNg Testcase:
+1.Declare the 2D array(Strin[][]) in ReadExcel Class
+  And Mention row count& column count
+
+2.Save the data to 2d Array by having data[i-1]
+[j]
+3.Convert the main method into normal method
+  i. remove (String[] args) from main method
+  ii. change a method name, make it as meaning ful name
+
+4.add return type and change void with return type(String[][])
+
+5,call the getExcelData() in dataprovider
+
+
+
+
+
+
+
+
+
+
+
+
+
+
