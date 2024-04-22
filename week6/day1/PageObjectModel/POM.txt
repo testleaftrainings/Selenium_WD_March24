@@ -1,0 +1,66 @@
+base
+    to have BaseClass common properties
+    PreCondition() and postCondition()
+pages
+    we can able to create multiple java classes
+    to have java classes for all the pages that we navigate in the application
+testcase
+     Depends on  pages, we can able to create multiple java classes
+Utills
+     ReadExcel
+     ExtendReport
+     
+
+LoginPage
+HomePage
+MyHomePage
+MyLeadsPage
+CreateLeadPage
+ViewLeadPage
+
+Steps to Implement PageObjectModel
+1.Create a new Project named as PageObjectModel
+2.Add the necessary dependencies in pom.xml file
+3.Create below packages under src/main/java
+       i.base
+      ii.pages
+     iii.testcase
+      iv.utills
+4.under base package we have to create two methods as preCondition()
+  and postCondition() and also add necessary code in base class
+  Declare the chrome driver as global variable and make it add static keyword
+  i.e
+  public static ChromeDriver driver
+
+5.Create java classes for each pages that we navigate in the appplication
+   --6 java classes under page packages
+   --All the pages are should extends with BaseClass
+   --Create a method in each actions/ verifications in the respective pages
+      java class with appropriate code for each actions and verifications
+   --Apply return statement for all the methods in pages
+     this -->same page
+    new PageClass() -> for another page
+6.Create a java class under testcase package
+  Here all the java classes should extends with baseclass
+  create a new method and top of the method put @Test annatations
+
+              BaseClass
+    Pages            Testcase
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
