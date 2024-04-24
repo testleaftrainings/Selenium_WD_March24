@@ -1,0 +1,21 @@
+ClassName objectName=new ClassName() or Constructor;
+
+1.Constructor is a Special kind of function or block, 
+It is used to initialize the object
+2.Constructor name and  class name must be same
+3.Constructor does not have any return type
+4.If we dont have any constructor the jvm will be providing default constructor
+
+we have two types of constructor
+1.Default Constructor
+2.Parameterized Constructor
+
+
+This --> Current instance of a class
+       variable , method, constructor 
+
+Steps to implement parallel execution in POM:
+1. create constructor in all pages with ChromeDriver as  a arugument
+2.Assign the driver to the global variable inside the constructor
+   this.driver=driver
+3.pass the driver instance wherever we call constructor pages as well as testcases

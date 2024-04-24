@@ -1,0 +1,77 @@
+Exception:
+Exception is an abnormal condition which interupt the normal flow of exeution
+
+why we are using exceptional handling:
+ To enable the normal flow of execution
+
+Types:
+1.Checked exception --Compiletime Exceptions
+IOException, 
+InterruptedException 
+
+2.UnChecked Exception --RuntimeExceptions
+
+Runtime Exeception:
+1.NoSuchElementException
+2.InvalidSelectorException  
+3.WebDriverException
+4.SessionNotCreatedException
+5.SocketException
+6.NullPointerException
+7.StaleElemenetReferenceException
+8.NoAlertPresentException
+9.UnHandledAlertException
+10.NoSuchFrameException
+11.NoSuchWindowException
+12.JavaScriptException
+13.ElementClickInterceptedException
+14.ElementInteractbleException
+
+3.Errors
+JVM error
+
+
+Finally:
+Finally is a block of code, even though the exception has 
+occured the finally block will be executed
+
+
+throw                           throws
+throw and throws both are java keywords
+
+throw used to throw the           throws it is like a method signature
+exception explicitly              to declare the exception
+
+At a time we can able to           at a time we can able to declare more than one exception
+throw single exception only
+
+Final:
+Final is a non-access modifiers we can able to use class, method and variable
+variable:
+    if you are declare the final variable it should be constant
+
+method:
+ we can able to do overload but we can't override;
+
+this -- current instance of a class
+super --- parent instance of a class
+
+
+Static:
+
+Static is a non-access modifiers we can able to use class, method and variable
+variable:
+    if you are declare the static variable we can able do overload
+
+method:
+ we can able to do overload but we can't override
+class:Nested class
+
+
+
+
+
+
+
+
+
