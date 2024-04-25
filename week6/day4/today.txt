@@ -1,0 +1,147 @@
+Today's Agenda 
+Map
+IRetryAnalyzer
+IAnnatationTransformer
+reacp
+
+Map --->Interface
+
+Key Should be unique
+Value can be duplicate
+
+Map -->MultiDimensional Array
+
+IMplementation class for Map:
+1.HashMap  -- using hasing Algorithm -->fatest -->random order
+2.TreeMap  -- Comaparator Algorithm -->Ascii order
+3.LinkedHashMap --Maintain the insertion order
+
+Set<String> obj=new HashSet<String>();
+
+Map<String,Character> val=new HashMap<String,Character>();
+
+
+Method:
+Put() -->To add the element in map (key &Value)
+size()  -->To get the size of the map
+get()  -- to particular key 
+remove() -- to remove the particular element from map
+isEmpty() --- to check whether  the map empty or not
+
+
+
+HashMap                                   HashTable
+Non-synchronized --not thread safe     synchronized --thread safe
+it allows only one null key and        It does not allow null key and null values
+multiple null values 
+fast                                    slow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Java:
+What is class
+What is an object
+What are the accessmodifiers available in java and restriction also
+can we overload the main method
+deafault values
+String program
+Arrays program
+5 methods from string
+
+oops
+Abstraction 
+Java AbstractClass
+Selenium By
+Interface
+Java :List Set
+Selenium WebDriver,SearchContext,WebElement
+
+
+
+
+
+Selenium 
+Locators
+Absolute xpath and Relative xpath
+following and following- sibling
+ancesstor xpath
+NoSuchElementException
+
+
+
+StaleElementReferenceException
+dropdown with select or without select tag 
+how to select random values from dropdown
+
+Alert types,, Exception
+NOAlertPresentException
+UnhandlesAlertexception
+AlertMethod
+
+Frame
+how will you handle frame
+parentframe and default content
+NosuchFreame Exception
+
+getWindowHandle() and getWindowHandles()
+
+
+testng annatation order execution testng
+attribute
+reteyanalyzern and retry Listeners
+
+Read Excel-- 2 dependencies 
+
+cucumber
+
+
+
+
+
+
+
+
+println()
+frame
+
+.equals
+.quit
+
+Exceptional Handling
+throwable
+Java keyword
+Constructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
